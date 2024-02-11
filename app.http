@@ -1,0 +1,27 @@
+###
+GET http://localhost:8080/ping
+Content-Type: application/json
+
+
+###
+GET http://localhost:8080/transactions
+Content-Type: application/json
+
+###
+POST http://localhost:8080/transactions
+Content-Type: application/json
+
+{
+    "account_id":"asdasdasd",
+    "amount":7
+}
+
+###
+GET http://localhost:8080/accounts
+Content-Type: application/json
+
+###
+
+GET http://localhost:8080/accounts/fff8b3ca-c68b-420d-a156-360fab3a1c85
+Content-Type: application/json
+
